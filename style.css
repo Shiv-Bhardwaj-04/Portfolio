@@ -11,9 +11,9 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right:20px;
-    padding-top:5px;
+    padding:0 20px;
+    top:0;
+    left:0;
 } 
 .header h2{
     color:#ffeaab;
@@ -40,6 +40,7 @@ nav a:hover{
 }
 
 .main{  
+    padding-top:50px;
     height: 100dvh;
     width:100dvw;
     background-color:#035581ed;
@@ -95,4 +96,53 @@ nav a:hover{
     color:white;
     font-family: 'Times New Roman', Times, serif;
     width:90%;
+}
+#about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+}
+
+.abt_wrap{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    gap:20px;
+}
+.wrapabout{
+    display:flex;
+    justify-content: space-between;
+}
+.about_desc{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    padding:20px;
+    background-color:#035581ed ;
+    width:60%;
+    border-radius:8px;
+}
+.about_desc p{
+    color:white;
+    font-size: 20px;
+}
+.about_desc h2{
+    color:white;
+}
+
+.skills{
+    background-color:#035581ed;
+    width:30%;
+    border-radius:5%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:12px;
+}
+
+.skills img{
+    width:100px;
+    height:100px;
+    border-radius: 10%;
 }
