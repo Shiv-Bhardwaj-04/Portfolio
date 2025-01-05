@@ -209,7 +209,7 @@ nav a:hover{
 
 
 
-.contacts {
+#contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -254,7 +254,12 @@ nav a:hover{
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-
+.contact_form textarea{
+    height: 150px;
+    width: 100%;
+    resize: none;
+    
+}
 .contact_form button {
     background-color: #ffeaab;
     color: black;
@@ -274,7 +279,6 @@ nav a:hover{
 .contact_links img {
     width: 30px;
     height: 30px;
-
     margin-right: 10px;
 }
 
@@ -290,9 +294,6 @@ nav a:hover{
     color: #ffeaab;
     margin-right: 10px;
 }
-
-
-
 
 .contact_links a:hover {
     color: white;
