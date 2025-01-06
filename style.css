@@ -255,6 +255,7 @@ nav a:hover{
     border-radius: 5px;
 }
 .contact_form textarea{
+    margin:10px 0;
     height: 150px;
     width: 100%;
     resize: none;
@@ -290,9 +291,36 @@ nav a:hover{
 }
 
 .contact_links i {
-    font-size: 30px;
-    color: #ffeaab;
-    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #e0e0e0;
+    color: #035581;
+    transition: all 0.3s ease;
+}
+
+.contact_links i:hover {
+    color: white;
+}
+
+.contact_links i.fa-linkedin:hover {
+    background-color: #0077b5; 
+}
+
+.contact_links i.fa-github:hover {
+    background-color: #333;
+}
+
+.contact_links i.fa-phone-alt:hover {
+    background-color: #34a853;
+}
+
+.contact_links i.fa-envelope:hover {
+    background-color: #ea4335;
 }
 
 .contact_links a:hover {
@@ -305,4 +333,4 @@ nav a:hover{
     align-items: center;
 }
 
-  
+
